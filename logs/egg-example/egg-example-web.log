@@ -1,0 +1,120 @@
+2020-06-29 16:11:55,222 ERROR 9288 [-/127.0.0.1/-/11ms GET /news] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\workspace\egg-example\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\workspace\egg-example\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\workspace\egg-example\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\workspace\egg-example\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\workspace\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\workspace\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\workspace\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\workspace\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\workspace\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\workspace\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 9288
+hostname: BF-202006112317
+
+2020-06-29 16:11:57,738 ERROR 9288 [-/127.0.0.1/-/3ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\workspace\egg-example\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\workspace\egg-example\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\workspace\egg-example\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\workspace\egg-example\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\workspace\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\workspace\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\workspace\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\workspace\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\workspace\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\workspace\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 9288
+hostname: BF-202006112317
+
+2020-06-29 16:11:59,452 ERROR 9288 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\workspace\egg-example\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\workspace\egg-example\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\workspace\egg-example\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\workspace\egg-example\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\workspace\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\workspace\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\workspace\egg-example\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\workspace\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\workspace\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\workspace\egg-example\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 9288
+hostname: BF-202006112317
+
+2020-06-29 17:35:45,535 ERROR 8884 [-/127.0.0.1/-/10ms GET /news] nodejs.TypeError: this.ctx.service.news.list is not a function
+    at ListController.list (D:\workspace\egg-example\app\controller\news.js:6:50)
+    at Object.callFn (D:\workspace\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\workspace\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\workspace\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\workspace\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\workspace\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (D:\workspace\egg-example\node_modules\koa-compose\index.js:45:18)
+    at D:\workspace\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\workspace\egg-example\node_modules\koa-compose\index.js:44:32)
+    at D:\workspace\egg-example\node_modules\koa-compose\index.js:36:12
+
+pid: 8884
+hostname: BF-202006112317
+
+2020-06-29 17:37:46,015 ERROR 5400 [-/127.0.0.1/-/13ms GET /news] nodejs.TypeError: this.ctx.service.news.list is not a function
+    at ListController.list (D:\workspace\egg-example\app\controller\news.js:6:50)
+    at Object.callFn (D:\workspace\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\workspace\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\workspace\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\workspace\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\workspace\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (D:\workspace\egg-example\node_modules\koa-compose\index.js:45:18)
+    at D:\workspace\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\workspace\egg-example\node_modules\koa-compose\index.js:44:32)
+    at D:\workspace\egg-example\node_modules\koa-compose\index.js:36:12
+
+pid: 5400
+hostname: BF-202006112317
+
+2020-06-29 17:38:06,341 ERROR 5400 [-/127.0.0.1/-/1ms GET /news] nodejs.TypeError: this.ctx.service.news.list is not a function
+    at ListController.list (D:\workspace\egg-example\app\controller\news.js:6:50)
+    at Object.callFn (D:\workspace\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\workspace\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\workspace\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\workspace\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\workspace\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (D:\workspace\egg-example\node_modules\koa-compose\index.js:45:18)
+    at D:\workspace\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\workspace\egg-example\node_modules\koa-compose\index.js:44:32)
+    at D:\workspace\egg-example\node_modules\koa-compose\index.js:36:12
+
+pid: 5400
+hostname: BF-202006112317
+
+2020-06-29 17:40:10,327 ERROR 10728 [-/127.0.0.1/-/12ms GET /news] nodejs.TypeError: this.ctx.service.news.list is not a function
+    at ListController.list (D:\workspace\egg-example\app\controller\news.js:6:50)
+    at Object.callFn (D:\workspace\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\workspace\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\workspace\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\workspace\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\workspace\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (D:\workspace\egg-example\node_modules\koa-compose\index.js:45:18)
+    at D:\workspace\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\workspace\egg-example\node_modules\koa-compose\index.js:44:32)
+    at D:\workspace\egg-example\node_modules\koa-compose\index.js:36:12
+
+pid: 10728
+hostname: BF-202006112317
+
+2020-06-29 17:41:04,075 ERROR 10728 [-/127.0.0.1/-/36925ms GET /news] nodejs.TypeError: this.ctx.service.news.list is not a function
+    at ListController.list (D:\workspace\egg-example\app\controller\news.js:6:50)
+    at Object.callFn (D:\workspace\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\workspace\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\workspace\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\workspace\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\workspace\egg-example\node_modules\koa-compose\index.js:44:32)
+    at next (D:\workspace\egg-example\node_modules\koa-compose\index.js:45:18)
+    at D:\workspace\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\workspace\egg-example\node_modules\koa-compose\index.js:44:32)
+    at D:\workspace\egg-example\node_modules\koa-compose\index.js:36:12
+
+pid: 10728
+hostname: BF-202006112317
+
